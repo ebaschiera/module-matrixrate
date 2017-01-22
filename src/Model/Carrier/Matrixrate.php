@@ -170,8 +170,8 @@ class Matrixrate extends \Magento\Shipping\Model\Carrier\AbstractCarrier impleme
         $oldWeight = $request->getPackageWeight();
         $oldQty = $request->getPackageQty();
 
-        $request->setPackageWeight($request->getFreeMethodWeight());
-        $request->setPackageQty($oldQty - $freeQty);
+//        $request->setPackageWeight($request->getFreeMethodWeight());
+//        $request->setPackageQty($oldQty - $freeQty);
 
         /** @var \Magento\Shipping\Model\Rate\Result $result */
         $result = $this->_rateResultFactory->create();
