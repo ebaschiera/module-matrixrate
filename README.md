@@ -1,5 +1,5 @@
-# ShipperHQ and WebShopApps MatrixRate
-A Shipping Rate module for Magento 2.x which supports showing multiple shipping methods.  This is based on the Magento Tablerate module and is managed via a csv file.
+# A quick and dirt fork of ShipperHQ and WebShopApps MatrixRate
+A Shipping Rate module for Magento 2.x which supports showing multiple shipping methods.  This is based on the Magento Tablerate module and is managed via a csv file. This is a fork made by Ermanno Baschiera.
 
 Facts
 -----
